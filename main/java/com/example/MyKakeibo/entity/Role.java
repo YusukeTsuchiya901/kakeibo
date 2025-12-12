@@ -3,6 +3,8 @@ package com.example.MyKakeibo.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.sql.Timestamp;
+
 @Entity
 @Table(name = "roles")
 @Data
